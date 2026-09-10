@@ -110,6 +110,8 @@ body::after {
   flex: 1 1 auto;
   display: flex;
   flex-direction: column;
+  /* Short conversations sit down by the composer instead of floating up top. */
+  justify-content: flex-end;
   gap: 1.1rem;
   padding-block: 0.5rem 1.25rem;
 }
