@@ -1,0 +1,20 @@
+{
+  "name": "yep-nope",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "manifest": "node scripts/build-manifest.mjs",
+    "images": "node scripts/gen-images.mjs"
+  },
+  "dependencies": {
+    "next": "15.5.2",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.2"
+  }
+}
