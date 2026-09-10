@@ -1,4 +1,4 @@
-export const runtime = "edge";
+export const runtime = "nodejs";
 
 const MODEL = "google/gemini-2.5-flash";
 
